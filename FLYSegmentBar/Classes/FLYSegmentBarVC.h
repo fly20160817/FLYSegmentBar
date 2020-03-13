@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FLYSegmentBarVC : UIViewController
 
+- (void)setUpWithTitles: (NSArray <NSString *>*)titles childVCs: (NSArray <UIViewController *>*)childVCs;
+
 @end
 
 NS_ASSUME_NONNULL_END

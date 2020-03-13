@@ -42,25 +42,18 @@
     
     [self.view addSubview:self.scrollView];
     
-    [self setupChildViewControllers];
-}
 
-- (void)setupChildViewControllers
-{
-    NSArray * vcNames = @[@"FLYtestViewController", @"FLYtestViewController", @"FLYtestViewController", @"FLYtestViewController"];
     
-    for ( int i = 0; i < vcNames.count; i++ )
-    {
-        NSString * vcName = vcNames[i];
-        UIViewController * vc = [[NSClassFromString(vcName) alloc] init];
-        [self addChildViewController:vc];
-    }
+    UIViewController * vc1 = [[UIViewController alloc] init];
+    vc1.view.backgroundColor = [UIColor yellowColor];
+    UIViewController * vc2 = [[UIViewController alloc] init];
+    vc2.view.backgroundColor = [UIColor orangeColor];
+    UIViewController * vc3 = [[UIViewController alloc] init];
+    vc3.view.backgroundColor = [UIColor cyanColor];
+    UIViewController * vc4 = [[UIViewController alloc] init];
+    vc4.view.backgroundColor = [UIColor redColor];
     
-    self.scrollView.contentSize = CGSizeMake(self.view.width * vcNames.count, 0);
-    
-    
-    //展示第一个页面
-    self.segmentBar.selectIndex = 0;
+    [self setUpWithTitles:@[@"清单", @"详情", @"档案", @"支持"] childVCs:@[vc1, vc2, vc3, vc4]];
 }
 
 
@@ -85,6 +78,23 @@
 
 
 #pragma mark - private methods
+
+- (void)setUpWithTitles: (NSArray <NSString *>*)titles childVCs: (NSArray <UIViewController *>*)childVCs
+{
+    NSAssert(titles.count != 0 || titles.count == childVCs.count, @"fly提示：参数错误！");
+    
+    self.segmentBar.titleNames = titles;
+    
+    for ( UIViewController *vc in childVCs )
+    {
+        [self addChildViewController:vc];
+    }
+    
+    self.scrollView.contentSize = CGSizeMake(self.view.width * childVCs.count, 0);
+    
+    //展示第一个页面
+    self.segmentBar.selectIndex = 0;
+}
 
 - (void)showChildVCViewsAtIndex: (NSInteger)index
 {
@@ -121,8 +131,7 @@
 {
     if ( _segmentBar == nil )
     {
-        NSArray * nameArray = @[@"清单", @"详情", @"档案", @"支持"];
-        _segmentBar = [[FLYSegmentBar alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 35) titleNames:nameArray];
+        _segmentBar = [[FLYSegmentBar alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 35)];
         _segmentBar.delegate = self;
         _segmentBar.splitEqually = YES;
     }
