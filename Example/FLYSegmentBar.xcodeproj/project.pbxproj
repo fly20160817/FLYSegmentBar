@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B6B624241B660800529A16 /* FLYtestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6B623241B660800529A16 /* FLYtestViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B6B622241B660800529A16 /* FLYtestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYtestViewController.h; sourceTree = "<group>"; };
+		04B6B623241B660800529A16 /* FLYtestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYtestViewController.m; sourceTree = "<group>"; };
 		22B7EF3CD2F6467843144553 /* Pods_FLYSegmentBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLYSegmentBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		474CDCF3CEEDE60BB1DCC3C8 /* FLYSegmentBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FLYSegmentBar.podspec; path = ../FLYSegmentBar.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FLYSegmentBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLYSegmentBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FLYViewController.h */,
 				6003F5A6195388D20070C39A /* FLYViewController.m */,
+				04B6B622241B660800529A16 /* FLYtestViewController.h */,
+				04B6B623241B660800529A16 /* FLYtestViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -367,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B6B624241B660800529A16 /* FLYtestViewController.m in Sources */,
 				6003F59E195388D20070C39A /* FLYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FLYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

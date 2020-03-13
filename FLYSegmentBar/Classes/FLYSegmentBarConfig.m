@@ -36,6 +36,7 @@ CGFloat const FLYSegmentBarIndicatorAutomaticWidth = -1;
 {
     return ^(UIColor *color){
         
+        //把block传进来的参数，赋值给segmentBarBackColor属性
         self.segmentBarBackColor = color;
         
         return self;

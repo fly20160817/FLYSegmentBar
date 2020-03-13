@@ -13,7 +13,9 @@
 #define kSpaceWidth 10
 
 @interface FLYSegmentBar ()
-
+{
+    FLYSegmentBarConfig * _config;
+}
 @property (nonatomic, strong) UIScrollView * contentView;
 @property (nonatomic, strong) UIView * indicatorView;//指示器（线）
 
@@ -244,6 +246,15 @@
     
     [self setNeedsLayout];
     [self layoutIfNeeded];
+}
+
+- (FLYSegmentBarConfig *)config
+{
+    if (!_config)
+    {
+        _config = [FLYSegmentBarConfig defaultConfig];
+    }
+    return _config;
 }
 
 @end
