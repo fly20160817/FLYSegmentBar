@@ -1,0 +1,22 @@
+{
+  "name": "FLYSegmentBar",
+  "version": "0.1.0",
+  "summary": "A short description of FLYSegmentBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fly20160817/FLYSegmentBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fly20160817": "809176334@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fly20160817/FLYSegmentBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FLYSegmentBar/Classes/**/*"
+}

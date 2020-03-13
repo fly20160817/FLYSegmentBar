@@ -1,0 +1,16 @@
+PODS:
+  - FLYSegmentBar (0.1.0)
+
+DEPENDENCIES:
+  - FLYSegmentBar (from `../`)
+
+EXTERNAL SOURCES:
+  FLYSegmentBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLYSegmentBar: 0bc170d026b9d940dd75d57664600cf4f11f092c
+
+PODFILE CHECKSUM: 267b6c03681f7c9b2e9089097a2ff986155c15c5
+
+COCOAPODS: 1.9.0

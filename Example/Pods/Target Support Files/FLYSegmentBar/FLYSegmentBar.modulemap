@@ -1,0 +1,6 @@
+framework module FLYSegmentBar {
+  umbrella header "FLYSegmentBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
