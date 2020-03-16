@@ -7,23 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		079E14EEC8476EC65E003C270A0C424E /* FLYSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E037157D890A1BF675631DFA845F57 /* FLYSegmentBarVC.m */; };
 		0D31D0EF4BE34B8A8221029FC6F08950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		13D16AA6BBB13ACF6BA8EA2C7C4AD574 /* FLYSegmentBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A894C04516D17953D19A73E5AEF0FAA /* FLYSegmentBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B7D090FB5032582B3610718ED3BD798 /* UIView+FLYSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 088B2E83069905E9EFC776B26E692898 /* UIView+FLYSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		216E76B966E5A47781A24AE40482F60C /* Pods-FLYSegmentBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B893E198474AAC3F611B0040B5F6E5 /* Pods-FLYSegmentBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29EB33BE77F248F57398A2E94D95957E /* FLYSegmentBarVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B07680DAE27657D8B49A4681983C9243 /* FLYSegmentBarVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B4553D78A6AFAE4B9A84745FDCF29DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3420CA81CEF465D08D9C4C69E9989556 /* Pods-FLYSegmentBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DAEC4A344ABBE6D368482DD5318D4B /* Pods-FLYSegmentBar_Tests-dummy.m */; };
-		3E73D3CBA6D4EE082A35E1B819DE2C55 /* FLYSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A4080FCD9A779429C5766C248BEC9E40 /* FLYSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C01803AF7A80FEA50F37B383BDB40DF /* FLYSegmentBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FCFAFA5485697DC0D24C4AA9A3CD8 /* FLYSegmentBar-dummy.m */; };
-		50F8C3FBE4BA02871D847F7BFA8590FF /* FLYSegmentBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90342BBECF57857289B74CF8256E15C6 /* FLYSegmentBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69BFC6DCFE58951F2BBC403C304DF446 /* FLYSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E288EB545E723DB7B3BB3AF0DC31BEF /* FLYSegmentBar.m */; };
+		378B0B2667FFB9198F0BE0775A8B0DAC /* FLYSegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C49CB0B9727299CE2EAC82733D7616 /* FLYSegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37FF018443D2B6378A69825FAD2C56F4 /* UIView+FLYSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 00703A791FD9F233A1AB2B7591ADC21A /* UIView+FLYSegmentBar.m */; };
+		42742D9EAF155AE52DE94813D50FE391 /* FLYSegmentBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0352C32BD72E15CBC9648AB023A1C0D /* FLYSegmentBar-dummy.m */; };
+		79F629D98483851477DA6C2CF1456BDC /* FLYSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BAEE8D3813B5F72457D86285E7BA27 /* FLYSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		831C5C6BFE28433696FBAEC77AD932CF /* FLYSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDECBCFA93D58E58AD59A977C898F13 /* FLYSegmentBarConfig.m */; };
 		8BE3F2CB83FCC5275747A6CADA0C6FC4 /* Pods-FLYSegmentBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0988F3C2E0C346679B45B54324D1632A /* Pods-FLYSegmentBar_Example-dummy.m */; };
-		9D6CAB0467513AE936C05E9DDE0BB40D /* FLYSegmentBarConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1F855AC1D62C5D712C56D4CE040946 /* FLYSegmentBarConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9630BC891E3EEB5C9C1BCAB2043DFE1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AB74D80CE77A47B53A6CB0842C8B6EAF /* FLYSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E021ABFC7FF0D57262079A6017F390 /* FLYSegmentBar.m */; };
 		AD6CA4DA82D51D625A39268302F76B1B /* Pods-FLYSegmentBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38301C95854D04DF82299E131E4441F2 /* Pods-FLYSegmentBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADB5A252773AAD5ED2E2A239F5EB838A /* FLYSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C2786C8DC905A76CC3922287CBAD5B4B /* FLYSegmentBarConfig.m */; };
-		B4BFC5640F092C8F2C32B247C318D742 /* UIView+FLYSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC5E38EA0DB8E7DE910CD1155B5A6C9 /* UIView+FLYSegmentBar.m */; };
-		DA5F0EFB97BF0B249E18CC77AABEEE0B /* UIView+FLYSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 671DFD00BB3D9E45EB180C90A75D1236 /* UIView+FLYSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E652533F6E756D46C4046D96F02687CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,49 +42,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00398785620D5118D12F9894D1441DDB /* FLYSegmentBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FLYSegmentBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		07494F7D25868F8FD740629058149B57 /* FLYSegmentBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLYSegmentBar-prefix.pch"; sourceTree = "<group>"; };
+		00703A791FD9F233A1AB2B7591ADC21A /* UIView+FLYSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLYSegmentBar.m"; path = "FLYSegmentBar/Classes/UIView+FLYSegmentBar.m"; sourceTree = "<group>"; };
+		01BAEE8D3813B5F72457D86285E7BA27 /* FLYSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLYSegmentBar.h; path = FLYSegmentBar/Classes/FLYSegmentBar.h; sourceTree = "<group>"; };
+		01C49CB0B9727299CE2EAC82733D7616 /* FLYSegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLYSegmentBarConfig.h; path = FLYSegmentBar/Classes/FLYSegmentBarConfig.h; sourceTree = "<group>"; };
+		088B2E83069905E9EFC776B26E692898 /* UIView+FLYSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLYSegmentBar.h"; path = "FLYSegmentBar/Classes/UIView+FLYSegmentBar.h"; sourceTree = "<group>"; };
 		0988F3C2E0C346679B45B54324D1632A /* Pods-FLYSegmentBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLYSegmentBar_Example-dummy.m"; sourceTree = "<group>"; };
-		0A9FCFAFA5485697DC0D24C4AA9A3CD8 /* FLYSegmentBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLYSegmentBar-dummy.m"; sourceTree = "<group>"; };
 		0DCE35163E3C44F129FC6A1516A938A9 /* Pods-FLYSegmentBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLYSegmentBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		101FA9D216EB78FDCBA655DD03452CF9 /* FLYSegmentBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLYSegmentBar.release.xcconfig; sourceTree = "<group>"; };
+		129D24CDA73102447CFCF7229BEFC082 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1535B10CED6576146FC02D807A6EA5E4 /* Pods-FLYSegmentBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYSegmentBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		18390CC6998FC341DC4392D9A8DBE4E8 /* Pods-FLYSegmentBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLYSegmentBar_Example-Info.plist"; sourceTree = "<group>"; };
 		1FEAC4DFA82F2C75B9099417D5DC9347 /* Pods-FLYSegmentBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLYSegmentBar_Tests.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		339F083DCD96926CBF415F63B8C599A6 /* FLYSegmentBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FLYSegmentBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		366E5810626E0B0B5079EBD185CE1A23 /* Pods_FLYSegmentBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLYSegmentBar_Example.framework; path = "Pods-FLYSegmentBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38301C95854D04DF82299E131E4441F2 /* Pods-FLYSegmentBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLYSegmentBar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3A2BD3EBD474E20AE788A414CDE111F2 /* Pods_FLYSegmentBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLYSegmentBar_Tests.framework; path = "Pods-FLYSegmentBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		449B70722F22D659BDBE9805FE259E44 /* FLYSegmentBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLYSegmentBar.debug.xcconfig; sourceTree = "<group>"; };
 		48B893E198474AAC3F611B0040B5F6E5 /* Pods-FLYSegmentBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLYSegmentBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		4D11B5ED30C67672F01487A1FD842ED6 /* FLYSegmentBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLYSegmentBar.modulemap; sourceTree = "<group>"; };
-		5357E0703FD87CEB750B049126B7A2CC /* FLYSegmentBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLYSegmentBar.release.xcconfig; sourceTree = "<group>"; };
+		4A37C92D3AA718E9621D531B61452770 /* FLYSegmentBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLYSegmentBar-Info.plist"; sourceTree = "<group>"; };
 		55AAE6B0109100FB692E892537682540 /* Pods-FLYSegmentBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYSegmentBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5E288EB545E723DB7B3BB3AF0DC31BEF /* FLYSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLYSegmentBar.m; path = FLYSegmentBar/Classes/FLYSegmentBar.m; sourceTree = "<group>"; };
-		671DFD00BB3D9E45EB180C90A75D1236 /* UIView+FLYSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLYSegmentBar.h"; path = "FLYSegmentBar/Classes/UIView+FLYSegmentBar.h"; sourceTree = "<group>"; };
 		67846780669E4D312A6E506BDFC9F336 /* Pods-FLYSegmentBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLYSegmentBar_Tests-Info.plist"; sourceTree = "<group>"; };
-		72C776CD58DCB63B86D2B07311F91578 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6E070B94DE62A18C2CAB03946A6E415E /* FLYSegmentBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLYSegmentBar.debug.xcconfig; sourceTree = "<group>"; };
 		7365E93F26D8C74DD6FD876AC5BD433D /* Pods-FLYSegmentBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLYSegmentBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75E021ABFC7FF0D57262079A6017F390 /* FLYSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLYSegmentBar.m; path = FLYSegmentBar/Classes/FLYSegmentBar.m; sourceTree = "<group>"; };
+		7A894C04516D17953D19A73E5AEF0FAA /* FLYSegmentBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLYSegmentBar-umbrella.h"; sourceTree = "<group>"; };
 		7D5E23B4EC2120ECCEE0BCD62FF0CA4C /* Pods-FLYSegmentBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLYSegmentBar_Example.modulemap"; sourceTree = "<group>"; };
-		876F048D7B0E0E8F056B9862F7914D34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		90342BBECF57857289B74CF8256E15C6 /* FLYSegmentBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLYSegmentBar-umbrella.h"; sourceTree = "<group>"; };
-		92A808B95E0B4BE4E099C1ED1459D8D6 /* FLYSegmentBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLYSegmentBar-Info.plist"; sourceTree = "<group>"; };
-		93E037157D890A1BF675631DFA845F57 /* FLYSegmentBarVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLYSegmentBarVC.m; path = FLYSegmentBar/Classes/FLYSegmentBarVC.m; sourceTree = "<group>"; };
+		8FACCE6EA8F89909AE9E891927FC7B4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		97DAEC4A344ABBE6D368482DD5318D4B /* Pods-FLYSegmentBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLYSegmentBar_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4080FCD9A779429C5766C248BEC9E40 /* FLYSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLYSegmentBar.h; path = FLYSegmentBar/Classes/FLYSegmentBar.h; sourceTree = "<group>"; };
 		A59D851C27651659C8FB3DD4E6DD842D /* Pods-FLYSegmentBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLYSegmentBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AA9D589C22724D6F4D3AD77DFEE47ABB /* Pods-FLYSegmentBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLYSegmentBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B07680DAE27657D8B49A4681983C9243 /* FLYSegmentBarVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLYSegmentBarVC.h; path = FLYSegmentBar/Classes/FLYSegmentBarVC.h; sourceTree = "<group>"; };
 		B1AFD441D24C8B2BFC0E90E3CDB22404 /* FLYSegmentBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLYSegmentBar.framework; path = FLYSegmentBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDECBCFA93D58E58AD59A977C898F13 /* FLYSegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLYSegmentBarConfig.m; path = FLYSegmentBar/Classes/FLYSegmentBarConfig.m; sourceTree = "<group>"; };
 		BE33F67F295C646531FBFD6C7CF4364A /* Pods-FLYSegmentBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLYSegmentBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C2786C8DC905A76CC3922287CBAD5B4B /* FLYSegmentBarConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLYSegmentBarConfig.m; path = FLYSegmentBar/Classes/FLYSegmentBarConfig.m; sourceTree = "<group>"; };
+		C38A6B5D32075BF0987322C0D7A33122 /* FLYSegmentBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLYSegmentBar-prefix.pch"; sourceTree = "<group>"; };
 		CB39BCD46D4747780DCB529C65E95D26 /* Pods-FLYSegmentBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYSegmentBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF1F855AC1D62C5D712C56D4CE040946 /* FLYSegmentBarConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLYSegmentBarConfig.h; path = FLYSegmentBar/Classes/FLYSegmentBarConfig.h; sourceTree = "<group>"; };
-		DCC5E38EA0DB8E7DE910CD1155B5A6C9 /* UIView+FLYSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLYSegmentBar.m"; path = "FLYSegmentBar/Classes/UIView+FLYSegmentBar.m"; sourceTree = "<group>"; };
+		D0352C32BD72E15CBC9648AB023A1C0D /* FLYSegmentBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLYSegmentBar-dummy.m"; sourceTree = "<group>"; };
+		D7DD4E7BF9E2DCD79952D4ECC4AFB02A /* FLYSegmentBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLYSegmentBar.modulemap; sourceTree = "<group>"; };
 		DDD0F5F67BD1816291B7962DF9F7E44C /* Pods-FLYSegmentBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLYSegmentBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		48D65013AC738BCFFDC51A030C26AEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9630BC891E3EEB5C9C1BCAB2043DFE1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F10E417F75B114D2DD398456F7BDB7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,17 +107,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C034B8E501119E0F824FB94845F2AE36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E652533F6E756D46C4046D96F02687CF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3CEB03914F1E5D5BFB18E29C7DBDD8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				339F083DCD96926CBF415F63B8C599A6 /* FLYSegmentBar.podspec */,
+				129D24CDA73102447CFCF7229BEFC082 /* LICENSE */,
+				8FACCE6EA8F89909AE9E891927FC7B4B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		1DF1964CEB9D5CB4799348989756BB79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,14 +139,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7D30B683CA9AA3712132B708DE3E3528 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D1C949C035BC8A0B0AF207D0845ECF4F /* FLYSegmentBar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		845B381165242DC93A73D6E17F67C1DE /* Pods-FLYSegmentBar_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,14 +156,19 @@
 			path = "Target Support Files/Pods-FLYSegmentBar_Example";
 			sourceTree = "<group>";
 		};
-		B554007EB5AA5537074579CC2C30F4CD /* Pod */ = {
+		972767C3D051C53CD3C4BA7D92E659D5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				00398785620D5118D12F9894D1441DDB /* FLYSegmentBar.podspec */,
-				72C776CD58DCB63B86D2B07311F91578 /* LICENSE */,
-				876F048D7B0E0E8F056B9862F7914D34 /* README.md */,
+				D7DD4E7BF9E2DCD79952D4ECC4AFB02A /* FLYSegmentBar.modulemap */,
+				D0352C32BD72E15CBC9648AB023A1C0D /* FLYSegmentBar-dummy.m */,
+				4A37C92D3AA718E9621D531B61452770 /* FLYSegmentBar-Info.plist */,
+				C38A6B5D32075BF0987322C0D7A33122 /* FLYSegmentBar-prefix.pch */,
+				7A894C04516D17953D19A73E5AEF0FAA /* FLYSegmentBar-umbrella.h */,
+				6E070B94DE62A18C2CAB03946A6E415E /* FLYSegmentBar.debug.xcconfig */,
+				101FA9D216EB78FDCBA655DD03452CF9 /* FLYSegmentBar.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FLYSegmentBar";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -176,33 +179,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CE48F9E32235808D4EB6C341F6A5CB22 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F473750A87500B61ABAC78DC28FEB57B /* FLYSegmentBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7D30B683CA9AA3712132B708DE3E3528 /* Development Pods */,
+				CE48F9E32235808D4EB6C341F6A5CB22 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				1DF1964CEB9D5CB4799348989756BB79 /* Products */,
 				3022B26668623F6C3DDE5D59EC3C9E95 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1C949C035BC8A0B0AF207D0845ECF4F /* FLYSegmentBar */ = {
-			isa = PBXGroup;
-			children = (
-				A4080FCD9A779429C5766C248BEC9E40 /* FLYSegmentBar.h */,
-				5E288EB545E723DB7B3BB3AF0DC31BEF /* FLYSegmentBar.m */,
-				CF1F855AC1D62C5D712C56D4CE040946 /* FLYSegmentBarConfig.h */,
-				C2786C8DC905A76CC3922287CBAD5B4B /* FLYSegmentBarConfig.m */,
-				B07680DAE27657D8B49A4681983C9243 /* FLYSegmentBarVC.h */,
-				93E037157D890A1BF675631DFA845F57 /* FLYSegmentBarVC.m */,
-				671DFD00BB3D9E45EB180C90A75D1236 /* UIView+FLYSegmentBar.h */,
-				DCC5E38EA0DB8E7DE910CD1155B5A6C9 /* UIView+FLYSegmentBar.m */,
-				B554007EB5AA5537074579CC2C30F4CD /* Pod */,
-				EB255FC03A349C176EA95B81ACC29C85 /* Support Files */,
-			);
-			name = FLYSegmentBar;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -213,19 +206,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EB255FC03A349C176EA95B81ACC29C85 /* Support Files */ = {
+		F473750A87500B61ABAC78DC28FEB57B /* FLYSegmentBar */ = {
 			isa = PBXGroup;
 			children = (
-				4D11B5ED30C67672F01487A1FD842ED6 /* FLYSegmentBar.modulemap */,
-				0A9FCFAFA5485697DC0D24C4AA9A3CD8 /* FLYSegmentBar-dummy.m */,
-				92A808B95E0B4BE4E099C1ED1459D8D6 /* FLYSegmentBar-Info.plist */,
-				07494F7D25868F8FD740629058149B57 /* FLYSegmentBar-prefix.pch */,
-				90342BBECF57857289B74CF8256E15C6 /* FLYSegmentBar-umbrella.h */,
-				449B70722F22D659BDBE9805FE259E44 /* FLYSegmentBar.debug.xcconfig */,
-				5357E0703FD87CEB750B049126B7A2CC /* FLYSegmentBar.release.xcconfig */,
+				01BAEE8D3813B5F72457D86285E7BA27 /* FLYSegmentBar.h */,
+				75E021ABFC7FF0D57262079A6017F390 /* FLYSegmentBar.m */,
+				01C49CB0B9727299CE2EAC82733D7616 /* FLYSegmentBarConfig.h */,
+				BDDECBCFA93D58E58AD59A977C898F13 /* FLYSegmentBarConfig.m */,
+				088B2E83069905E9EFC776B26E692898 /* UIView+FLYSegmentBar.h */,
+				00703A791FD9F233A1AB2B7591ADC21A /* UIView+FLYSegmentBar.m */,
+				0F3CEB03914F1E5D5BFB18E29C7DBDD8 /* Pod */,
+				972767C3D051C53CD3C4BA7D92E659D5 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FLYSegmentBar";
+			name = FLYSegmentBar;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F734092F80176AEC99EF770166F1B37D /* Pods-FLYSegmentBar_Tests */ = {
@@ -247,15 +241,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F4126B5891420D70B2DA9BBE2B94E50 /* Headers */ = {
+		1A07FA80F7828E7CD10410DD243BCE3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F8C3FBE4BA02871D847F7BFA8590FF /* FLYSegmentBar-umbrella.h in Headers */,
-				3E73D3CBA6D4EE082A35E1B819DE2C55 /* FLYSegmentBar.h in Headers */,
-				9D6CAB0467513AE936C05E9DDE0BB40D /* FLYSegmentBarConfig.h in Headers */,
-				29EB33BE77F248F57398A2E94D95957E /* FLYSegmentBarVC.h in Headers */,
-				DA5F0EFB97BF0B249E18CC77AABEEE0B /* UIView+FLYSegmentBar.h in Headers */,
+				13D16AA6BBB13ACF6BA8EA2C7C4AD574 /* FLYSegmentBar-umbrella.h in Headers */,
+				79F629D98483851477DA6C2CF1456BDC /* FLYSegmentBar.h in Headers */,
+				378B0B2667FFB9198F0BE0775A8B0DAC /* FLYSegmentBarConfig.h in Headers */,
+				1B7D090FB5032582B3610718ED3BD798 /* UIView+FLYSegmentBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,12 +311,12 @@
 		};
 		92B05146AD0D58790B8F2CD0667488BE /* FLYSegmentBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A39A735CEB7CC851B30E8C06AA9FE056 /* Build configuration list for PBXNativeTarget "FLYSegmentBar" */;
+			buildConfigurationList = 34CE46CF3945339C0800702E1C7B46D4 /* Build configuration list for PBXNativeTarget "FLYSegmentBar" */;
 			buildPhases = (
-				0F4126B5891420D70B2DA9BBE2B94E50 /* Headers */,
-				B4188FED230B512FD7D512E5408D1F40 /* Sources */,
-				C034B8E501119E0F824FB94845F2AE36 /* Frameworks */,
-				2BD086F73FEECF282156C3753D5392B4 /* Resources */,
+				1A07FA80F7828E7CD10410DD243BCE3A /* Headers */,
+				C17014FD7CDBC93D06934B0856A014C1 /* Sources */,
+				48D65013AC738BCFFDC51A030C26AEAB /* Frameworks */,
+				7836E4E1FED0053047E1EDB48804916F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -378,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BD086F73FEECF282156C3753D5392B4 /* Resources */ = {
+		7836E4E1FED0053047E1EDB48804916F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,15 +389,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4188FED230B512FD7D512E5408D1F40 /* Sources */ = {
+		C17014FD7CDBC93D06934B0856A014C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C01803AF7A80FEA50F37B383BDB40DF /* FLYSegmentBar-dummy.m in Sources */,
-				69BFC6DCFE58951F2BBC403C304DF446 /* FLYSegmentBar.m in Sources */,
-				ADB5A252773AAD5ED2E2A239F5EB838A /* FLYSegmentBarConfig.m in Sources */,
-				079E14EEC8476EC65E003C270A0C424E /* FLYSegmentBarVC.m in Sources */,
-				B4BFC5640F092C8F2C32B247C318D742 /* UIView+FLYSegmentBar.m in Sources */,
+				42742D9EAF155AE52DE94813D50FE391 /* FLYSegmentBar-dummy.m in Sources */,
+				AB74D80CE77A47B53A6CB0842C8B6EAF /* FLYSegmentBar.m in Sources */,
+				831C5C6BFE28433696FBAEC77AD932CF /* FLYSegmentBarConfig.m in Sources */,
+				37FF018443D2B6378A69825FAD2C56F4 /* UIView+FLYSegmentBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +453,69 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12A7E086C61FADDDDC55A26D7C970AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101FA9D216EB78FDCBA655DD03452CF9 /* FLYSegmentBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLYSegmentBar/FLYSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLYSegmentBar/FLYSegmentBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLYSegmentBar/FLYSegmentBar.modulemap";
+				PRODUCT_MODULE_NAME = FLYSegmentBar;
+				PRODUCT_NAME = FLYSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23CBF880C50F3277FF0162BC79853AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E070B94DE62A18C2CAB03946A6E415E /* FLYSegmentBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FLYSegmentBar/FLYSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLYSegmentBar/FLYSegmentBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLYSegmentBar/FLYSegmentBar.modulemap";
+				PRODUCT_MODULE_NAME = FLYSegmentBar;
+				PRODUCT_NAME = FLYSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -561,37 +616,6 @@
 			};
 			name = Release;
 		};
-		76986C8D6FB7287AFB0CE459550D674C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 449B70722F22D659BDBE9805FE259E44 /* FLYSegmentBar.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FLYSegmentBar/FLYSegmentBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLYSegmentBar/FLYSegmentBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLYSegmentBar/FLYSegmentBar.modulemap";
-				PRODUCT_MODULE_NAME = FLYSegmentBar;
-				PRODUCT_NAME = FLYSegmentBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -689,38 +713,6 @@
 			};
 			name = Debug;
 		};
-		E378BDF5EA2C17F59DE5583BB97FEA0F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5357E0703FD87CEB750B049126B7A2CC /* FLYSegmentBar.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FLYSegmentBar/FLYSegmentBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLYSegmentBar/FLYSegmentBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLYSegmentBar/FLYSegmentBar.modulemap";
-				PRODUCT_MODULE_NAME = FLYSegmentBar;
-				PRODUCT_NAME = FLYSegmentBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E62183591309C242CC8CC0D72F3D6761 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB39BCD46D4747780DCB529C65E95D26 /* Pods-FLYSegmentBar_Tests.release.xcconfig */;
@@ -758,20 +750,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		34CE46CF3945339C0800702E1C7B46D4 /* Build configuration list for PBXNativeTarget "FLYSegmentBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CBF880C50F3277FF0162BC79853AA7 /* Debug */,
+				12A7E086C61FADDDDC55A26D7C970AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A39A735CEB7CC851B30E8C06AA9FE056 /* Build configuration list for PBXNativeTarget "FLYSegmentBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76986C8D6FB7287AFB0CE459550D674C /* Debug */,
-				E378BDF5EA2C17F59DE5583BB97FEA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

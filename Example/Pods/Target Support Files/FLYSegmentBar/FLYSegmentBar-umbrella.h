@@ -12,7 +12,6 @@
 
 #import "FLYSegmentBar.h"
 #import "FLYSegmentBarConfig.h"
-#import "FLYSegmentBarVC.h"
 #import "UIView+FLYSegmentBar.h"
 
 FOUNDATION_EXPORT double FLYSegmentBarVersionNumber;
