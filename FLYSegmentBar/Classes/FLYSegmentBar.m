@@ -64,7 +64,8 @@
         {
             [button sizeToFit];
             button.x = totalBtnWidth;
-            button.centerY = self.centerY;
+            button.y = 0;
+            button.height = self.height;
             //sizeToFit之后按钮的宽度是紧包着里面的文字，按钮和按钮之间贴在一起，这里增加每个按钮的宽度，让按钮之间有距离感。(kSpaceWidth是一个按钮左右两边留白的总和)
             button.width += kSpaceWidth;
             totalBtnWidth += button.width;
@@ -195,6 +196,14 @@
         [self.itemBtns addObject:titleBtn];
     }
     
+    
+    [self setNeedsLayout];
+    [self layoutIfNeeded];
+}
+
+-(void)setSplitEqually:(BOOL)splitEqually
+{
+    _splitEqually = splitEqually;
     
     [self setNeedsLayout];
     [self layoutIfNeeded];
